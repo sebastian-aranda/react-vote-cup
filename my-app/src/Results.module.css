@@ -1,0 +1,23 @@
+.questionContainer {
+    display: grid;
+    margin-bottom: 0.5em;
+    grid-gap: 1em;
+}
+
+.textAnswer {
+    width: 70px;
+    height: 70px;
+    justify-self: center;
+    font-size: 0.5em;
+    position: relative;
+}
+
+.trophy {
+    font-size: 2em;
+}
+
+.popoverContent {
+    padding: 1em;
+    width: 25em;
+    max-width: 100%;
+}

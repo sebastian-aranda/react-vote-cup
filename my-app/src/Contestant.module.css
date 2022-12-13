@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 1em;
+  /* max-height: 380px; */
+}
+
+.trophySection {
+  font-size: 2em;
+}
+
+.description {
+    padding: 1em;
+}
+  

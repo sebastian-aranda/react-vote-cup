@@ -1,0 +1,32 @@
+.container {
+    margin: 1em 0;
+}
+
+.container:not(:last-child) {
+    border-bottom: 1px solid gray;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em 0;
+    margin-bottom: 2em;
+}
+
+
+.alternatives {
+    /* flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1em; */
+    padding: 0.5em;
+}
+
+.submit {
+    margin-top: 1em;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  
